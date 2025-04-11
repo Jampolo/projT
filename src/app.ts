@@ -7,9 +7,9 @@ const port = process.env.PORT || 3000;
 
 // datos de ejemplo
 const objData = [
-  { objId : 2551, nombre : "med", composicion : "silicio", tipo : "igneo" },
+  { objId : 2551, nombre : "med", composicion : "silicio", tipo : "ígneo" },
   { objId : 2552, nombre : "izq", composicion : "caliza", tipo : "sedimentario" },
-  { objId : 2553, nombre: "der", composicion : "pizarra", tipo: "metamorfico" },
+  { objId : 2553, nombre: "der", composicion : "pizarra", tipo: "metamórfico" },
 ];
 
 app.get('/', (req, res) => res.status(200).send('Hola Mundo!'));
